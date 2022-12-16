@@ -830,6 +830,7 @@ header .container {
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: var(--primary-text-color);
+    margin-bottom: 4px;
 }
 
 .modal-input,
@@ -837,10 +838,12 @@ header .container {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    margin-top: 4px;
+    border-radius: 4px; 
     transition: border-color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-input {
+    padding-left: 30px;
 }
 .modal-input:required {
     border-color: rgba(117, 117, 117, 0.5);
