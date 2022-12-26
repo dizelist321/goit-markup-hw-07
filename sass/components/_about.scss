@@ -1,0 +1,31 @@
+.about {
+    margin-top: -94px;
+}
+.title-about {
+    color: var(--primary-header-color);
+    margin-bottom: 50px;
+}
+.about-list {
+    display: flex;
+    justify-content: space-between;
+}
+.about-list li + li {
+    margin-left: 30px;
+}
+.about-link {
+    height: 294px;
+    position: relative;
+}
+.about-list-text {
+    @include font(700, 14px, 1.14, 0.03em);
+    text-align: center; 
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    padding: 27px;
+    height: 70px;
+    width: 100%;
+    top: 224px;
+    background: rgba(47, 48, 58, 0.8);
+
+}

@@ -1,0 +1,52 @@
+@import './utils/variables';
+@import './components/_header';
+@import './components/_main';
+@import './components/_about';
+@import './components/_team';
+@import './components/_customers';
+@import './components/_footer';
+@import './components/_subscribe';
+@import './components/_portfolio-header';
+@import './components/_portfolio-main';
+@import './components/_modal';
+@import './utils/placeholder';
+@import './utils/mixin';
+
+
+
+
+/* Universal classes*/
+@keyframes zoom {
+    0% {
+        transform: scale(0.2);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* ---------HEADER----------- */
+
+/* ---------MAIN----------- */
+
+/* ---------ABOUT----------- */
+
+/* ---------TEAM----------- */
+
+/* ----------CUSTOMERS---------- */
+
+/* ----------FOOTER---------- */
+
+/* ----------Subscribe---------- */
+
+/* ----------PORTFOLIO---------- */
+/* ----------HEADER---------- */
+
+/* ----------Main---------- */
+
+/* ----------MODAL---------- */
+
+
