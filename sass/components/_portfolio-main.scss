@@ -1,10 +1,10 @@
-.filters-list {
+.filters {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.filters-list li + li {
+.filters li + li {
     margin-left: 8px;
 }
 
@@ -38,6 +38,7 @@
     border-radius: 4px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
     &:hover,
     &:focus {
         color: #FFFFFF;
@@ -47,14 +48,14 @@
     }
 }
 
-.portfolio-list {
+.portfolio {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
     margin-bottom: -30px;
     justify-content: space-between;
 }
-.portfolio-link {
+.portfolio__link {
     width: calc((100% - 90px) / 3);
     margin-left: 30px;
     margin-bottom: 30px;
@@ -63,17 +64,18 @@
     width: 370px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
     &:hover {
         border: 1px solid #EEEEEE;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
 }
 
-.portfolio-card-thumb {
+.portfolio-card__thumb {
     position: relative;
     overflow: hidden;
 }
-.portfolio-card-text {
+.portfolio-card__text {
     @include font(400, 18px, 1.55, 0.03em);
     color: #FFFFFF;
     position: absolute;
@@ -85,19 +87,19 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-link:hover
-.portfolio-card-text {
+.portfolio__link:hover
+.portfolio-card__text {
     transform: translateY(0);
 }
 
-.portfolio-items {
+.portfolio__items {
    padding: 20px 24px;
 }
-.portfolio-title {
+.portfolio__title {
     @include font(700, 18px, 2, 0.06em);
     color: var(--primary-header-color);
 }
-.portfolio-text {
+.portfolio__text {
     @include font(400, 16px, 1.88, 0.03em);
     color: var(--primary-text-color);
     margin-top: 4px;

@@ -5,18 +5,18 @@
     color: var(--primary-header-color);
     margin-bottom: 50px;
 }
-.about-list {
+.about__list {
     display: flex;
     justify-content: space-between;
 }
-.about-list li + li {
+.about__list li + li {
     margin-left: 30px;
 }
-.about-link {
+.about__link {
     height: 294px;
     position: relative;
 }
-.about-list-text {
+.about__text {
     @include font(700, 14px, 1.14, 0.03em);
     text-align: center; 
     text-transform: uppercase;

@@ -1,11 +1,14 @@
 .subscribe {
-    justify-content: flex-end;
-    @extend %flex-align;
-    
-
+    margin-left: 85px;
+    top: 50%;
 }
 
-.title-subscribe {
+.subscribe__items {
+    justify-content: flex-end;
+    @extend %flex-align;
+}
+
+.subscribe-title {
     @include font(700, 14px, 1.14, 0.03em);
     text-transform: uppercase;
     color: #FFFFFF;
@@ -29,10 +32,7 @@
     opacity: 1; /* Firefox */
   }
 
-.subscribe-items {
-    margin-left: 85px;
-    top: 50%;
-}
+
 
 .subscribe-btn {
     width: 200px;
