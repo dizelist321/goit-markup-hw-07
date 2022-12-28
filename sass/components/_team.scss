@@ -2,7 +2,7 @@
     background-color: #F5F4FA;
 }
 
-.title-team {
+.team__title {
     color: var(--primary-header-color);
     margin-bottom: 50px;
 }
@@ -33,18 +33,18 @@
     color: var(--primary-text-color);
     margin-bottom: 16px;
 }
-.team-soc__list {
+.team__communication {
     justify-content: center;
     @extend %flex-align;
 }
-.team-soc__items {
+.team__icons {
     width: 44px;
     height: 44px;
 }
-.team-soc__items:not(:last-child) {
+.team__icons:not(:last-child) {
     margin-right: 10px;
 }
-.team-soc__link {
+.team__icon {
     width: 100%;
     height: 100%;
     fill: #AFB1B8;
@@ -54,6 +54,7 @@
     @extend %flex-align;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
     &:hover,
     &:focus {
         fill: #FFFFFF;

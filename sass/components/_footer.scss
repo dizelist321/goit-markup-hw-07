@@ -12,25 +12,22 @@
     margin-left: 94px;
     margin-top: 15px;
 }
-.footer-web {
+.footer__web {
     color: var(--primary-link-color);
 }
-.footer-logo {
+.footer__logo {
     color: #FFFFFF;
     display: block;
     margin-bottom: 28px;
 }
-.address-list li + li {
+.address__list li + li {
     margin-top: 12px;
 }
 
-.address-link {
+.address__name {
     color: #FFFFFF;
 }
-.contacts-link {
-    color: rgba(255, 255, 255, 0.6);
-}
-.tel-link {
+.address__color {
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -39,7 +36,7 @@
     justify-content: center;
     margin-top: 20px; 
 }
-.directions-title {
+.footer__title {
     @include font(700, 14px, 1.14, 0.03em);
     text-transform: uppercase;
     color: #FFFFFF;

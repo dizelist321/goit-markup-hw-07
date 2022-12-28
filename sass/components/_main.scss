@@ -8,7 +8,7 @@
     background-position: cover; 
 }
 
-.main-title {
+.hero__title {
     @include font(900, 44px, 1.36, 0.06em);
     text-align: center;
     text-transform: uppercase;
@@ -18,7 +18,7 @@
     margin-right: 252px;
     margin-bottom: 30px;
 }
-.main-btn {
+.hero__btn {
     @include font(700, 16px, 1.9, 0.06em);
     font-family: inherit;
     @extend %flex-align;
@@ -36,14 +36,17 @@
     }
 }
 
-.main__icons {
+.main__list {
     @extend %flex-align;
-    margin-bottom: 30px;
-    justify-content: center;
+   
+
 }
+
+
 .main__items {
     width: 270px;
     height: 120px;
+    margin-bottom: 30px;
 }
 .main__items:not(:last-child) {
     margin-right: 30px;
@@ -67,23 +70,16 @@
     }
 }
 
-.main__text {
-    display: flex;
-    justify-content: space-between;
-    
-}
-.main__text li + li {
-    margin-left: 30px;
-}
 
-.title-link {
+
+.main__title {
     @include font(700, 14px, 1.14, 0.03em);
     text-transform: uppercase;
     color: var(--primary-header-color);
     margin-bottom: 10px;
 
 }
-.main-text {
+.main__text {
     @include font(400, 14px, 1.71, 0.03em);
     color: var(--primary-text-color);
     max-width: 270px;

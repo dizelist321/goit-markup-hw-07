@@ -8,7 +8,7 @@
     @extend %flex-align;
 }
 
-.subscribe-title {
+.subscribe__title {
     @include font(700, 14px, 1.14, 0.03em);
     text-transform: uppercase;
     color: #FFFFFF;
@@ -16,7 +16,7 @@
 }
 
 
-.subscribe-input {
+.subscribe__input {
     background-color: transparent;
     width: 358px;
     height: 50px;border: 1px solid rgba(255, 255, 255, 0.3);
@@ -34,7 +34,7 @@
 
 
 
-.subscribe-btn {
+.subscribe__btn {
     width: 200px;
     height: 50px;
     margin-left: 12px;
@@ -51,7 +51,7 @@
 
 }
 
-.icon-subscribe {
+.subscribe__icon {
     fill: currentColor;
     margin-left: 25px;
    

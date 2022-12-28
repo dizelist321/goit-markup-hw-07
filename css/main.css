@@ -1,4 +1,4 @@
-.modal-politic-label, .btn-close, .subscribe__items, .directions__link, .directions__list, .customers__link, .customers__list, .team-soc__link, .team-soc__list, .main__link, .main__icons, .main-btn, .navigation-contacts__link, .navigation-contacts__list, header .container {
+.modal-politic-label, .btn-close, .subscribe__items, .directions__link, .directions__list, .customers__link, .customers__list, .team__icon, .team__communication, .main__link, .main__list, .hero__btn, .navigation-contacts__link, .navigation-contacts__list, header .container {
   display: flex;
   align-items: center;
 }
@@ -155,7 +155,7 @@ header .container {
   background-position: cover;
 }
 
-.main-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -169,7 +169,7 @@ header .container {
   margin-bottom: 30px;
 }
 
-.main-btn {
+.hero__btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -182,19 +182,15 @@ header .container {
   background: #2196F3;
   border-radius: 4px;
 }
-.main-btn:hover, .main-btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.main__icons {
-  margin-bottom: 30px;
-  justify-content: center;
 }
 
 .main__items {
   width: 270px;
   height: 120px;
+  margin-bottom: 30px;
 }
 
 .main__items:not(:last-child) {
@@ -216,16 +212,7 @@ header .container {
   border-color: #2196F3;
 }
 
-.main__text {
-  display: flex;
-  justify-content: space-between;
-}
-
-.main__text li + li {
-  margin-left: 30px;
-}
-
-.title-link {
+.main__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -235,7 +222,7 @@ header .container {
   margin-bottom: 10px;
 }
 
-.main-text {
+.main__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -248,7 +235,7 @@ header .container {
   margin-top: -94px;
 }
 
-.title-about {
+.about__title {
   color: var(--primary-header-color);
   margin-bottom: 50px;
 }
@@ -287,7 +274,7 @@ header .container {
   background-color: #F5F4FA;
 }
 
-.title-team {
+.team__title {
   color: var(--primary-header-color);
   margin-bottom: 50px;
 }
@@ -330,20 +317,20 @@ header .container {
   margin-bottom: 16px;
 }
 
-.team-soc__list {
+.team__communication {
   justify-content: center;
 }
 
-.team-soc__items {
+.team__icons {
   width: 44px;
   height: 44px;
 }
 
-.team-soc__items:not(:last-child) {
+.team__icons:not(:last-child) {
   margin-right: 10px;
 }
 
-.team-soc__link {
+.team__icon {
   width: 100%;
   height: 100%;
   fill: #AFB1B8;
@@ -353,12 +340,12 @@ header .container {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-soc__link:hover, .team-soc__link:focus {
+.team__icon:hover, .team__icon:focus {
   fill: #FFFFFF;
   background-color: #2196F3;
 }
 
-.title-customers {
+.customers__title {
   color: var(--primary-header-color);
   margin-bottom: 50px;
 }
@@ -412,29 +399,25 @@ header .container {
   margin-top: 15px;
 }
 
-.footer-web {
+.footer__web {
   color: var(--primary-link-color);
 }
 
-.footer-logo {
+.footer__logo {
   color: #FFFFFF;
   display: block;
   margin-bottom: 28px;
 }
 
-.address-list li + li {
+.address__list li + li {
   margin-top: 12px;
 }
 
-.address-link {
+.address__name {
   color: #FFFFFF;
 }
 
-.contacts-link {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.tel-link {
+.address__color {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -443,7 +426,7 @@ header .container {
   margin-top: 20px;
 }
 
-.directions-title {
+.footer__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -486,7 +469,7 @@ header .container {
   justify-content: flex-end;
 }
 
-.subscribe-title {
+.subscribe__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -496,7 +479,7 @@ header .container {
   margin-left: 220px;
 }
 
-.subscribe-input {
+.subscribe__input {
   background-color: transparent;
   width: 358px;
   height: 50px;
@@ -522,7 +505,7 @@ header .container {
   opacity: 1; /* Firefox */
 }
 
-.subscribe-btn {
+.subscribe__btn {
   width: 200px;
   height: 50px;
   margin-left: 12px;
@@ -538,7 +521,7 @@ header .container {
   justify-content: center;
 }
 
-.icon-subscribe {
+.subscribe__icon {
   fill: currentColor;
   margin-left: 25px;
 }
